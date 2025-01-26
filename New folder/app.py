@@ -16,12 +16,34 @@ from flask_cors import CORS
 import uuid
 import sqlite3
 from llama_index.core import PropertyGraphIndex
+from Crypto.Cipher import AES
+from Crypto.Util.Padding import pad, unpad
+import base64
 
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 app.secret_key = os.environ.get("FLASK_SECRET_KEY", os.urandom(24))
 
+
+key = '2legit2overfit1234567890'
+
+# Fixed IV (16 characters for AES-128)
+iv = 'BBBBBBBBBBBBBBBB'.encode('utf-8')
+
+# Function to encrypt data
+def encrypt(data, key, iv):
+    data = pad(data.encode(), 16)  # Pad the data to a multiple of 16 bytes
+    cipher = AES.new(key.encode('utf-8'), AES.MODE_CBC, iv)
+    encrypted_data = cipher.encrypt(data)
+    return base64.b64encode(encrypted_data).decode('utf-8')  # Return as a string
+
+# Function to decrypt data
+def decrypt(enc, key, iv):
+    enc = base64.b64decode(enc)  # Decode the base64-encoded input
+    cipher = AES.new(key.encode('utf-8'), AES.MODE_CBC, iv)
+    decrypted_data = cipher.decrypt(enc)
+    return unpad(decrypted_data, 16).decode('utf-8')  # Convert bytes to string
 
 def create_session_id():
     return str(uuid.uuid4())
@@ -144,11 +166,10 @@ def chat():
     try:
         if not query_engine:
             return jsonify({"error": "System not initialized"}), 500
-            
-        data = request.json.get('message', '').strip()
+        data = decrypt(request.json.get('message', ''), key, iv)
         if not data:
             return jsonify({"error": "Missing question in request"}), 400
-
+        print(data)
         # Generate session ID
         session_id = create_session_id()
         
@@ -156,6 +177,7 @@ def chat():
         
         # Use the query engine to retrieve information
         response = query_engine.custom_query(data)
+        response = encrypt(response, key, iv)
         
         return jsonify({
             "session_id": session_id,
