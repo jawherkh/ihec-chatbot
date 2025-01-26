@@ -1,0 +1,454 @@
+{
+  "dataset": [
+    {
+      "id": 1,
+      "category": "Informations Générales sur l'Établissement",
+      "question": "Quelle est la mission de notre établissement ?",
+      "answer": "Notre mission est de fournir une éducation de qualité, accessible à tous, et de promouvoir l'innovation et la recherche."
+    },
+    {
+      "id": 2,
+      "category": "Informations Générales sur l'Établissement",
+      "question": "Quels sont les valeurs fondamentales de notre école ?",
+      "answer": "Nos valeurs incluent l'intégrité, l'excellence académique, la diversité et l'engagement communautaire."
+    },
+    {
+      "id": 3,
+      "category": "Informations Générales sur l'Établissement",
+      "question": "Combien d'étudiants sont inscrits cette année ?",
+      "answer": "Cette année, nous avons 10 000 étudiants inscrits."
+    },
+    {
+      "id": 4,
+      "category": "Informations Générales sur l'Établissement",
+      "question": "Quelle est la durée moyenne d'obtention d'un diplôme ?",
+      "answer": "La durée moyenne est de 3 à 4 ans pour un diplôme de premier cycle."
+    },
+    {
+      "id": 5,
+      "category": "Informations Générales sur l'Établissement",
+      "question": "Quels sont les partenariats académiques de l'établissement ?",
+      "answer": "Nous collaborons avec des universités internationales comme Harvard, Sorbonne, et l'Université de Tokyo."
+    },
+    {
+      "id": 6,
+      "category": "Programmes et Cours",
+      "question": "Quels sont les programmes de premier cycle offerts ?",
+      "answer": "Nous offrons des programmes en informatique, gestion, sciences sociales, et ingénierie."
+    },
+    {
+      "id": 7,
+      "category": "Programmes et Cours",
+      "question": "Quels sont les programmes de cycle supérieur disponibles ?",
+      "answer": "Nous proposons des masters en Data Science, MBA, et des doctorats en recherche."
+    },
+    {
+      "id": 8,
+      "category": "Programmes et Cours",
+      "question": "Y a-t-il des programmes en ligne ou à distance ?",
+      "answer": "Oui, nous proposons des programmes en ligne pour les étudiants internationaux."
+    },
+    {
+      "id": 9,
+      "category": "Programmes et Cours",
+      "question": "Quels sont les cours les plus populaires parmi les étudiants ?",
+      "answer": "Les cours les plus populaires sont l'introduction à l'informatique, le marketing digital, et la psychologie sociale."
+    },
+    {
+      "id": 10,
+      "category": "Programmes et Cours",
+      "question": "Y a-t-il des programmes d'échange internationaux ?",
+      "answer": "Oui, nous avons des accords avec plus de 50 universités à travers le monde pour des échanges étudiants."
+    },
+    {
+      "id": 11,
+      "category": "Admission et Inscription",
+      "question": "Quels sont les critères d'admission pour les nouveaux étudiants ?",
+      "answer": "Les critères incluent un diplôme de fin d'études secondaires, une lettre de motivation, et des scores aux tests standardisés."
+    },
+    {
+      "id": 12,
+      "category": "Admission et Inscription",
+      "question": "Quels documents sont nécessaires pour l'inscription ?",
+      "answer": "Vous aurez besoin de votre diplôme, d'une pièce d'identité, d'une photo d'identité, et d'une preuve de paiement des frais d'inscription."
+    },
+    {
+      "id": 13,
+      "category": "Admission et Inscription",
+      "question": "Y a-t-il des frais d'inscription ? Si oui, combien ?",
+      "answer": "Oui, les frais d'inscription sont de 200 euros pour les nouveaux étudiants."
+    },
+    {
+      "id": 14,
+      "category": "Admission et Inscription",
+      "question": "Existe-t-il des bourses d'études disponibles ?",
+      "answer": "Oui, nous offrons des bourses basées sur le mérite et les besoins financiers."
+    },
+    {
+      "id": 15,
+      "category": "Admission et Inscription",
+      "question": "Quelle est la date limite pour postuler ?",
+      "answer": "La date limite pour postuler est le 30 juin de chaque année."
+    },
+    {
+      "id": 16,
+      "category": "Vie Étudiante",
+      "question": "Quelles activités extrascolaires sont proposées ?",
+      "answer": "Nous proposons des clubs sportifs, des associations culturelles, et des événements communautaires."
+    },
+    {
+      "id": 17,
+      "category": "Vie Étudiante",
+      "question": "Y a-t-il des clubs étudiants actifs sur le campus ?",
+      "answer": "Oui, il y a plus de 50 clubs étudiants actifs, allant des clubs de débat aux clubs de robotique."
+    },
+    {
+      "id": 18,
+      "category": "Vie Étudiante",
+      "question": "Quels sont les services de soutien aux étudiants disponibles ?",
+      "answer": "Nous offrons un soutien académique, psychologique, et des services d'orientation professionnelle."
+    },
+    {
+      "id": 19,
+      "category": "Vie Étudiante",
+      "question": "Y a-t-il des logements étudiants sur le campus ?",
+      "answer": "Oui, nous avons des résidences étudiantes sur le campus avec des options de chambres individuelles ou partagées."
+    },
+    {
+      "id": 20,
+      "category": "Vie Étudiante",
+      "question": "Comment fonctionne le système de transport pour les étudiants ?",
+      "answer": "Nous offrons des navettes gratuites entre le campus et les résidences étudiantes, ainsi que des réductions sur les transports publics."
+    },
+    {
+      "id": 21,
+      "category": "Ressources Académiques",
+      "question": "Quelles sont les heures d'ouverture de la bibliothèque ?",
+      "answer": "La bibliothèque est ouverte du lundi au vendredi de 8h à 20h, et le samedi de 9h à 17h."
+    },
+    {
+      "id": 22,
+      "category": "Ressources Académiques",
+      "question": "Y a-t-il des ressources en ligne disponibles pour les étudiants ?",
+      "answer": "Oui, nous avons une bibliothèque numérique avec des milliers de livres, articles, et vidéos éducatives."
+    },
+    {
+      "id": 23,
+      "category": "Ressources Académiques",
+      "question": "Comment accéder aux laboratoires de recherche ?",
+      "answer": "Les laboratoires sont accessibles sur réservation pour les étudiants inscrits dans des programmes de recherche."
+    },
+    {
+      "id": 24,
+      "category": "Ressources Académiques",
+      "question": "Y a-t-il des tutorats disponibles pour les étudiants ?",
+      "answer": "Oui, nous offrons des séances de tutorat gratuites pour les étudiants en difficulté."
+    },
+    {
+      "id": 25,
+      "category": "Ressources Académiques",
+      "question": "Quels sont les logiciels et outils fournis par l'établissement ?",
+      "answer": "Nous fournissons des licences pour Microsoft Office, MATLAB, et d'autres outils spécialisés."
+    },
+    {
+      "id": 26,
+      "category": "Services de Carrière",
+      "question": "Quels services de placement sont offerts aux étudiants ?",
+      "answer": "Nous offrons des ateliers de rédaction de CV, des simulations d'entretiens, et des salons de l'emploi."
+    },
+    {
+      "id": 27,
+      "category": "Services de Carrière",
+      "question": "Y a-t-il des stages obligatoires dans les programmes ?",
+      "answer": "Oui, certains programmes incluent des stages obligatoires pour valider le diplôme."
+    },
+    {
+      "id": 28,
+      "category": "Services de Carrière",
+      "question": "Comment l'établissement aide-t-il les étudiants à trouver un emploi ?",
+      "answer": "Nous organisons des événements de networking, des ateliers de carrière, et des partenariats avec des entreprises."
+    },
+    {
+      "id": 29,
+      "category": "Services de Carrière",
+      "question": "Y a-t-il des ateliers de préparation à la carrière ?",
+      "answer": "Oui, nous proposons des ateliers réguliers sur la recherche d'emploi, la négociation de salaire, et la gestion de carrière."
+    },
+    {
+      "id": 30,
+      "category": "Services de Carrière",
+      "question": "Quelles entreprises recrutent régulièrement sur le campus ?",
+      "answer": "Des entreprises comme Google, Amazon, et Deloitte recrutent régulièrement sur notre campus."
+    },
+    {
+      "id": 31,
+      "category": "Santé et Bien-être",
+      "question": "Y a-t-il un centre de santé sur le campus ?",
+      "answer": "Oui, nous avons un centre de santé ouvert du lundi au vendredi de 9h à 17h."
+    },
+    {
+      "id": 32,
+      "category": "Santé et Bien-être",
+      "question": "Quels services de santé mentale sont disponibles ?",
+      "answer": "Nous offrons des consultations psychologiques gratuites pour les étudiants."
+    },
+    {
+      "id": 33,
+      "category": "Santé et Bien-être",
+      "question": "Y a-t-il des programmes de bien-être pour les étudiants ?",
+      "answer": "Oui, nous proposons des ateliers de méditation, de gestion du stress, et de nutrition."
+    },
+    {
+      "id": 34,
+      "category": "Santé et Bien-être",
+      "question": "Comment signaler un problème de santé ou de sécurité ?",
+      "answer": "Vous pouvez contacter le bureau de la sécurité sur le campus ou appeler le numéro d'urgence fourni."
+    },
+    {
+      "id": 35,
+      "category": "Santé et Bien-être",
+      "question": "Y a-t-il des installations sportives disponibles pour les étudiants ?",
+      "answer": "Oui, nous avons un gymnase, une piscine, et des terrains de sport accessibles à tous les étudiants."
+    },
+    {
+      "id": 36,
+      "category": "Technologie et Innovation",
+      "question": "Quelles technologies sont utilisées dans les salles de classe ?",
+      "answer": "Nous utilisons des tableaux interactifs, des projecteurs 4K, et des systèmes de visioconférence."
+    },
+    {
+      "id": 37,
+      "category": "Technologie et Innovation",
+      "question": "Y a-t-il des initiatives d'innovation ou de recherche en cours ?",
+      "answer": "Oui, nous avons des laboratoires de recherche en IA, robotique, et énergie renouvelable."
+    },
+    {
+      "id": 38,
+      "category": "Technologie et Innovation",
+      "question": "Comment les étudiants peuvent-ils accéder au Wi-Fi sur le campus ?",
+      "answer": "Les étudiants peuvent se connecter au Wi-Fi en utilisant leurs identifiants universitaires."
+    },
+    {
+      "id": 39,
+      "category": "Technologie et Innovation",
+      "question": "Y a-t-il des ressources pour les étudiants en informatique ?",
+      "answer": "Oui, nous avons des laboratoires informatiques équipés des derniers logiciels et matériels."
+    },
+    {
+      "id": 40,
+      "category": "Technologie et Innovation",
+      "question": "Comment signaler un problème technique ?",
+      "answer": "Vous pouvez contacter le support technique via le portail en ligne ou en appelant le bureau d'assistance."
+    },
+    {
+      "id": 41,
+      "category": "Politiques et Règlements",
+      "question": "Quelle est la politique de l'établissement en matière de plagiat ?",
+      "answer": "Le plagiat est strictement interdit et peut entraîner des sanctions disciplinaires, y compris l'exclusion."
+    },
+    {
+      "id": 42,
+      "category": "Politiques et Règlements",
+      "question": "Comment fonctionne le système de notation ?",
+      "answer": "Les notes sont basées sur des examens, des projets, et la participation en classe, sur une échelle de 0 à 20."
+    },
+    {
+      "id": 43,
+      "category": "Politiques et Règlements",
+      "question": "Quelles sont les règles concernant les absences en cours ?",
+      "answer": "Les étudiants ne peuvent pas manquer plus de 20% des cours sans justification médicale."
+    },
+    {
+      "id": 44,
+      "category": "Politiques et Règlements",
+      "question": "Y a-t-il un code de conduite pour les étudiants ?",
+      "answer": "Oui, le code de conduite est disponible dans le manuel de l'étudiant et doit être respecté à tout moment."
+    },
+    {
+      "id": 45,
+      "category": "Politiques et Règlements",
+      "question": "Comment déposer une plainte ou un grief ?",
+      "answer": "Vous pouvez déposer une plainte en ligne via le portail étudiant ou en personne au bureau des affaires étudiantes."
+    },
+    {
+      "id": 46,
+      "category": "Événements et Actualités",
+      "question": "Quels sont les événements majeurs prévus cette année ?",
+      "answer": "Nous organisons une journée portes ouvertes, un festival culturel, et une conférence sur l'innovation."
+    },
+    {
+      "id": 47,
+      "category": "Événements et Actualités",
+      "question": "Comment les étudiants peuvent-ils participer à l'organisation d'événements ?",
+      "answer": "Les étudiants peuvent rejoindre le comité des événements ou proposer des idées via le bureau des activités étudiantes."
+    },
+    {
+      "id": 48,
+      "category": "Événements et Actualités",
+      "question": "Y a-t-il des conférences ou des séminaires ouverts aux étudiants ?",
+      "answer": "Oui, nous organisons régulièrement des conférences avec des experts internationaux."
+    },
+    {
+      "id": 49,
+      "category": "Événements et Actualités",
+      "question": "Comment rester informé des actualités de l'établissement ?",
+      "answer": "Vous pouvez consulter notre site web, notre application mobile, ou suivre nos réseaux sociaux."
+    },
+    {
+      "id": 50,
+      "category": "Événements et Actualités",
+      "question": "Y a-t-il des événements culturels ou artistiques sur le campus ?",
+      "answer": "Oui, nous organisons des expositions d'art, des concerts, et des pièces de théâtre tout au long de l'année."
+    },
+    {
+      "id": 51,
+      "category": "Site Web et Plateformes en Ligne",
+      "question": "Comment accéder à mon espace étudiant sur le site web de l'établissement ?",
+      "answer": "Vous pouvez accéder à votre espace étudiant en vous connectant avec vos identifiants sur le portail en ligne."
+    },
+    {
+      "id": 52,
+      "category": "Site Web et Plateformes en Ligne",
+      "question": "Où puis-je trouver les horaires des cours sur le site web ?",
+      "answer": "Les horaires des cours sont disponibles dans la section 'Emploi du temps' de votre espace étudiant."
+    },
+    {
+      "id": 53,
+      "category": "Site Web et Plateformes en Ligne",
+      "question": "Comment réinitialiser mon mot de passe pour les plateformes en ligne de l'établissement ?",
+      "answer": "Vous pouvez réinitialiser votre mot de passe en cliquant sur 'Mot de passe oublié' sur la page de connexion."
+    },
+    {
+      "id": 54,
+      "category": "Site Web et Plateformes en Ligne",
+      "question": "Y a-t-il une application mobile pour accéder aux services de l'établissement ?",
+      "answer": "Oui, nous avons une application mobile disponible sur iOS et Android."
+    },
+    {
+      "id": 55,
+      "category": "Site Web et Plateformes en Ligne",
+      "question": "Où puis-je trouver les ressources pédagogiques en ligne sur le site web ?",
+      "answer": "Les ressources pédagogiques sont disponibles dans la section 'Ressources' de votre espace étudiant."
+    },
+    {
+      "id": 56,
+      "category": "Stages et Expériences Professionnelles",
+      "question": "Comment trouver des offres de stages proposées par l'établissement ?",
+      "answer": "Les offres de stages sont publiées sur le portail carrière de l'établissement."
+    },
+    {
+      "id": 57,
+      "category": "Stages et Expériences Professionnelles",
+      "question": "Y a-t-il un bureau dédié aux stages et à l'insertion professionnelle ?",
+      "answer": "Oui, le bureau des stages est situé au bâtiment principal et est ouvert du lundi au vendredi."
+    },
+    {
+      "id": 58,
+      "category": "Stages et Expériences Professionnelles",
+      "question": "Les stages sont-ils rémunérés ou obligatoires dans certains programmes ?",
+      "answer": "Certains stages sont rémunérés, et d'autres sont obligatoires pour valider le diplôme."
+    },
+    {
+      "id": 59,
+      "category": "Stages et Expériences Professionnelles",
+      "question": "Comment obtenir une attestation de stage après avoir terminé mon stage ?",
+      "answer": "Vous pouvez demander une attestation de stage au bureau des stages après avoir soumis votre rapport de stage."
+    },
+    {
+      "id": 60,
+      "category": "Stages et Expériences Professionnelles",
+      "question": "Quels sont les partenariats avec les entreprises pour les stages ?",
+      "answer": "Nous avons des partenariats avec des entreprises comme Microsoft, Total, et L'Oréal."
+    },
+    {
+      "id": 61,
+      "category": "Professeurs et Encadrement",
+      "question": "Comment contacter un professeur en dehors des heures de cours ?",
+      "answer": "Vous pouvez contacter un professeur par e-mail ou prendre rendez-vous pendant ses heures de bureau."
+    },
+    {
+      "id": 62,
+      "category": "Professeurs et Encadrement",
+      "question": "Y a-t-il des heures de bureau pour rencontrer les professeurs ?",
+      "answer": "Oui, chaque professeur publie ses heures de bureau sur son profil en ligne."
+    },
+    {
+      "id": 63,
+      "category": "Professeurs et Encadrement",
+      "question": "Comment savoir qui est le responsable pédagogique de mon programme ?",
+      "answer": "Le responsable pédagogique est indiqué dans le descriptif de votre programme sur le site web de l'établissement."
+    },
+    {
+      "id": 64,
+      "category": "Professeurs et Encadrement",
+      "question": "Les professeurs proposent-ils des projets de recherche pour les étudiants ?",
+      "answer": "Oui, de nombreux professeurs proposent des projets de recherche pour les étudiants intéressés."
+    },
+    {
+      "id": 65,
+      "category": "Professeurs et Encadrement",
+      "question": "Comment obtenir une lettre de recommandation d'un professeur ?",
+      "answer": "Vous pouvez demander une lettre de recommandation en personne ou par e-mail, en fournissant les détails nécessaires."
+    },
+    {
+      "id": 66,
+      "category": "Clubs Étudiants et Associations",
+      "question": "Quels sont les clubs étudiants les plus actifs sur le campus ?",
+      "answer": "Les clubs les plus actifs incluent le club de débat, le club de robotique, et l'association des arts créatifs."
+    },
+    {
+      "id": 67,
+      "category": "Clubs Étudiants et Associations",
+      "question": "Comment créer un nouveau club étudiant ?",
+      "answer": "Vous pouvez soumettre une demande de création de club au bureau des activités étudiantes, accompagnée d'un projet détaillé."
+    },
+    {
+      "id": 68,
+      "category": "Clubs Étudiants et Associations",
+      "question": "Y a-t-il des subventions disponibles pour les clubs étudiants ?",
+      "answer": "Oui, les clubs peuvent demander des subventions pour financer leurs activités via le bureau des activités étudiantes."
+    },
+    {
+      "id": 69,
+      "category": "Clubs Étudiants et Associations",
+      "question": "Comment rejoindre un club ou une association étudiante ?",
+      "answer": "Vous pouvez vous inscrire aux clubs via le portail étudiant ou lors des journées d'intégration."
+    },
+    {
+      "id": 70,
+      "category": "Clubs Étudiants et Associations",
+      "question": "Quels événements sont organisés par les clubs étudiants cette année ?",
+      "answer": "Les clubs organisent des tournois sportifs, des ateliers créatifs, et des conférences tout au long de l'année."
+    },
+    {
+      "id": 71,
+      "category": "Services Administratifs et Carte Étudiante",
+      "question": "Comment obtenir ma carte d'étudiant ?",
+      "answer": "Vous pouvez obtenir votre carte d'étudiant au bureau des inscriptions après avoir complété votre inscription."
+    },
+    {
+      "id": 72,
+      "category": "Services Administratifs et Carte Étudiante",
+      "question": "Où puis-je faire renouveler ma carte d'étudiant si elle est perdue ou expirée ?",
+      "answer": "Vous pouvez demander un renouvellement de carte au bureau des inscriptions en fournissant une pièce d'identité."
+    },
+    {
+      "id": 73,
+      "category": "Services Administratifs et Carte Étudiante",
+      "question": "Quels sont les avantages liés à la carte d'étudiant (réductions, accès, etc.) ?",
+      "answer": "La carte d'étudiant offre des réductions dans les transports, les cinémas, et les restaurants partenaires, ainsi que l'accès aux installations du campus."
+    },
+    {
+      "id": 74,
+      "category": "Services Administratifs et Carte Étudiante",
+      "question": "Comment mettre à jour mes informations personnelles sur le système de l'établissement ?",
+      "answer": "Vous pouvez mettre à jour vos informations via votre espace étudiant en ligne ou en contactant le bureau des inscriptions."
+    },
+    {
+      "id": 75,
+      "category": "Services Administratifs et Carte Étudiante",
+      "question": "Où puis-je obtenir une attestation d'inscription ou un certificat de scolarité ?",
+      "answer": "Vous pouvez télécharger une attestation d'inscription depuis votre espace étudiant ou en faire la demande au bureau des inscriptions."
+    }
+  ]
+}

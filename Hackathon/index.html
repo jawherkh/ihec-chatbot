@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+    <script>
+        // Message to be encrypted
+        var message = 'I love Medium';
+
+        // Key and IV used in Python (same as in the original encryption)
+        var key = 'AAAAAAAAAAAAAAAA';  // 16-byte key
+        key = CryptoJS.enc.Utf8.parse(key);
+        var iv = CryptoJS.enc.Utf8.parse('BBBBBBBBBBBBBBBB');  // 16-byte IV
+
+        // Encrypt the message
+        var encrypted = CryptoJS.AES.encrypt(message, key, { iv: iv, mode: CryptoJS.mode.CBC });
+        encrypted = encrypted.toString();  // Convert to Base64 string
+        console.log('Encrypted:', encrypted);
+
+        // Decrypt the message
+        var decrypted = CryptoJS.AES.decrypt(encrypted, key, { iv: iv, mode: CryptoJS.mode.CBC });
+        var decryptedMessage = decrypted.toString(CryptoJS.enc.Utf8);  // Convert to UTF-8 string
+        console.log('Decrypted:', decryptedMessage);
+    </script>
+</body>
+
+</html>
