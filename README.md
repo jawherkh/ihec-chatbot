@@ -57,13 +57,4 @@ The IHEC Chatbot is a web-based application designed to provide information abou
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements or new features, please open an issue or submit a pull request.
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
-- [Flask](https://flask.palletsprojects.com/) for the web framework.
-- [LlamaIndex](https://github.com/jerryjliu/llama_index) for the natural language processing capabilities.
-- [CryptoJS](https://cryptojs.gitbook.io/docs/) for encryption utilities.
-
-## Contact
-For any inquiries, please contact [your-email@example.com](mailto:your-email@example.com).
